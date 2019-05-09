@@ -8,7 +8,6 @@
             "role": "developer"
         }
     ],
-    "require": {},
 
     "description": "Simple template for a Laravel Package.",
     "keywords": [
@@ -17,7 +16,15 @@
         "template",
         "packagist"
     ],
-    "license": "MIT"
+    "license": "MIT",
+    
+    "require": {},
+    
+    "autoload": {
+        "psr-4": {
+            "Mikestratton\\Hello\\": "src/"
+        }
+    }
 }
 
 
