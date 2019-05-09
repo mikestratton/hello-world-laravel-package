@@ -1,11 +1,23 @@
 {
     "name": "mikestratton/hello-world-laravel-package",
-    "license": "MIT",
     "authors": [
         {
             "name": "mikestratton",
-            "email": "mike@mikestratton.net"
+            "email": "mike@mikestratton.net",
+            "homepage": "https://mikestratton.net",
+            "role": "developer"
         }
     ],
-    "require": {}
+    "require": {},
+
+    "description": "Simple template for a Laravel Package.",
+    "keywords": [
+        "laravel",
+        "package",
+        "template",
+        "packagist"
+    ],
+    "license": "MIT"
 }
+
+
