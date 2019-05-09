@@ -1,0 +1,10 @@
+{
+    "name": "mikestrtatton/hello-world",
+    "authors": [
+        {
+            "name": "mikestratton",
+            "email": "mike@mikestratton.net"
+        }
+    ],
+    "require": {}
+}
