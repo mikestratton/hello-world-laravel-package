@@ -1,5 +1,6 @@
 {
     "name": "mikestratton/hello-world-laravel-package",
+    "license": "MIT",
     "authors": [
         {
             "name": "mikestratton",
