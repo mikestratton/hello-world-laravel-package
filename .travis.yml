@@ -13,9 +13,6 @@ before_script:
   - composer require mikestratton/hello-world-laravel-package
   - php artisan vendor:publish --provider="Mikestratton\Hello\HelloWorldServiceProvider"
 
-before_install:
-  - mysql -e 'CREATE DATABASE test_db;
-
 script:
   - phpunit
 
