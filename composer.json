@@ -23,15 +23,15 @@
     "autoload": {
         "psr-4": {
             "Mikestratton\\Hello\\": "src/"
-        },
-        "extra": {
-          "laravel": {
-            "providers": [
-              "Mikestratton\\Hello\\HelloWorldSercviceProvider"
-            ]
-          }
         }
-    }
+      },
+      "extra": {
+        "laravel": {
+          "providers": [
+            "Mikestratton\\Hello\\HelloWorldSercviceProvider"
+          ]
+        }
+      }
 }
 
 
