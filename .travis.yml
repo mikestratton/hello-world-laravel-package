@@ -10,8 +10,6 @@ before_script:
   - cd ./laravel
   - composer install --prefer-source --no-interaction --dev
   - php artisan key:generate
-  - php artisan migrate
-
 
 before_install:
   - mysql -e 'CREATE DATABASE test_db;'
