@@ -28,7 +28,7 @@
       "extra": {
         "laravel": {
           "providers": [
-            "Mikestratton\\Hello\\HelloWorldSercviceProvider"
+            "Mikestratton\\Hello\\HelloWorldServiceProvider"
           ]
         },
         "thanks": {
