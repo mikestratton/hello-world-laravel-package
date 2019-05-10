@@ -1,27 +1,11 @@
 language: php
+
 php:
-  - '7.1'
+  - 7.1
   - nightly
 
 before_script:
-  - cp .env.travis .env
   - composer self-update
-  - composer install --prefer-source --no-interaction --dev
-  - php artisan key:generate
-  - php artisan migrate
+  - composer install --prefer-source --no-interaction
 
-before_install:
-  - mysql -e 'CREATE DATABASE test_db;'
-
-script:
-  - phpunit
-
-services:
-  - mysql
-
-notifications:
-  email:
-    recipients:
-      - mike@sunnytree.org
-    on_success: always # default: change
-    on_failure: always # default: always
+script: phpunit
