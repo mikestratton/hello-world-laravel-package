@@ -1,0 +1,31 @@
+language: php
+php:
+  - '7.3'
+  - nightly
+
+before_script:
+  - cp .env.travis .env
+  - composer self-update
+  - composer create-project laravel/laravel
+  - cd ./laravel
+  - composer install --prefer-source --no-interaction --dev
+  - php artisan key:generate
+  - php artisan migrate
+  - composer require mikestratton/hello-world-laravel-package
+  - php artisan vendor:publish --provider="Mikestratton\Hello\HelloWorldServiceProvider"
+
+before_install:
+  - mysql -e 'CREATE DATABASE test_db;'
+
+script:
+  - phpunit
+
+services:
+  - mysql
+
+notifications:
+  email:
+    recipients:
+      - mike@sunnytree.org
+    on_success: always # default: change
+    on_failure: always # default: always
