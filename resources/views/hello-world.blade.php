@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Hello World Package</title>
+    <link rel="stylesheet" href="/assets/hello-world.css">
 </head>
 <body>
 
