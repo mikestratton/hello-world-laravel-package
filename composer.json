@@ -30,6 +30,10 @@
           "providers": [
             "Mikestratton\\Hello\\HelloWorldSercviceProvider"
           ]
+        },
+        "thanks": {
+            "name": "devdojo/welcome",
+            "url": "https://github.com/thedevdojo/welcome"
         }
       }
 }
