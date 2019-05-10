@@ -1,5 +1,4 @@
-# hello-world-laravel-package  
-<a href="https://packagist.org/packages/mikestratton/hello-world-laravel-package"><img src="https://poser.pugx.org/mikestratton/hello-world-laravel-package/d/total.svg" alt="Total Downloads"></a>    
+# hello-world-laravel-package  <a href="https://packagist.org/packages/mikestratton/hello-world-laravel-package"><img src="https://poser.pugx.org/mikestratton/hello-world-laravel-package/d/total.svg" alt="Total Downloads"></a>    
 Simple template for creating a Laravel Package  
 
 ## Installation:  
