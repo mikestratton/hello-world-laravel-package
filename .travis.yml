@@ -10,12 +10,11 @@ before_script:
   - cd ./laravel
   - composer install --prefer-source --no-interaction --dev
   - php artisan key:generate
-  - php artisan migrate
   - composer require mikestratton/hello-world-laravel-package
   - php artisan vendor:publish --provider="Mikestratton\Hello\HelloWorldServiceProvider"
 
 before_install:
-  - mysql -e 'CREATE DATABASE test_db;'
+  - mysql -e 'CREATE DATABASE test_db;
 
 script:
   - phpunit
