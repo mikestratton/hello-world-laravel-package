@@ -2,7 +2,6 @@ language: php
 
 php:
   - 7.2
-  - nightly
 
 env: 
   - LARAVEL_VERSION=5.8.*
